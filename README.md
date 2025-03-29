@@ -10,7 +10,7 @@ This conforms to the [Law of Total Probability](https://en.wikipedia.org/wiki/La
 - Portfolio weights by rating accurate reflect the underlying investment portfolio
 
 ## Input Parameters
-The below table is arbitrarily defined and used to define the structure of the portfolio. It is defined in the code as a dictionary.
+The below table is arbitrarily defined and used to define the structure of the portfolio. It is defined and brought into the module as a dictionary.
 | Credit Rating | Weight | Default Rate |
 |---------------|--------|--------------|
 | AAA           | 0.40   | 0.025        |
