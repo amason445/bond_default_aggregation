@@ -22,8 +22,7 @@ The below table is arbitrarily defined and used to define the structure of the p
 portfolio = {'AAA': {'weight': 0.40, 'default_rate': 0.025}, 'AA': {'weight': 0.30, 'default_rate': 0.04}, 
              'A': {'weight': 0.20, 'default_rate': 0.06}, 'BBB': {'weight': 0.10, 'default_rate': 0.08}}
 ```
-
-
-This class module produces a list of tuples that can be unpackaged and graphed like the below:
+## Output
+Currently, this module produces a list of tuples that can be unpackaged containing each probability for P(X = n) and the number of defaults. It can be graphed like below:
 
 ![alt_text](https://github.com/amason445/bond_default_aggregation/blob/main/DefaultFrequency.png)
