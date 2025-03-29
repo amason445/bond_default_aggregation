@@ -9,8 +9,7 @@ $$
 This weighting conforms to the [Law of Total Probability](https://en.wikipedia.org/wiki/Law_of_total_probability) since the defaults are weighted by credit rating.
 
 $$
-\bigcap_{i} \left\{ P(X = n \mid \text{Rating}_i) \cdot P(\text{Rating}_i) \right\}
-= \sum_{i} P(\text{Rating}_i) \cdot P(X = n \mid \text{Rating}_i)
+\bigcap_{i} \left\{ P(X = n \mid \text{Rating}_i) \cdot P(\text{Rating}_i) \right\} = \sum_{i} P(\text{Rating}_i) \cdot P(X = n \mid \text{Rating}_i)
 $$
 
 This class module produces a list of tuples that can be unpackaged and graphed like the below:
