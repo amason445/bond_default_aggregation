@@ -10,4 +10,4 @@ This weighting conforms to the [Law of Total Probability](https://en.wikipedia.o
 
 This class module produces a list of tuples that can be unpackaged and graphed like the below:
 
-[!alt_text](https://github.com/amason445/bond_default_aggregation/blob/main/DefaultFrequency.png)
+![alt_text](https://github.com/amason445/bond_default_aggregation/blob/main/DefaultFrequency.png)
