@@ -5,12 +5,13 @@ This repository contains a class module that aggregates the total default distri
 `P(X = n) = ∑ P(Ratingᵢ) × P(X = n | Ratingᵢ)`
 
 This conforms to the [Law of Total Probability](https://en.wikipedia.org/wiki/Law_of_total_probability) since the portfolio is weighted by each respective credit rating. So, this model assumes the following:
-- Bond Defaults are independent
+- Bond defaults are independent
 - Default rates are derived from credit rating
 - Portfolio weights by rating accurate reflect the underlying investment portfolio
 
 ## Input Parameters
-The below table is arbitrarily defined and used to define the structure of the portfolio. It is defined and brought into the module as a dictionary. Since the module iterates over this dynamically, more or less credit ratings could be addes to the input. Currently, the most important factors are the Portfolio Weight and the Default Rate. Additionally, a number of bonds in the portfolio is needed to perform the analysis.
+The below table is arbitrarily defined and reflects the structure of a hypothetical bond portfolio. It is defined and brought into the module as a dictionary. Since the module iterates over this dynamically, more or less credit ratings could be added to the input set. Currently, this module only depends on the Portfolio Weight and the Default Rate factors as well as the total number of bonds in the portfolio.
+
 | Credit Rating | Portfolio Weight | Default Rate |
 |---------------|--------|--------------|
 | AAA           | 0.40   | 0.025        |
