@@ -18,6 +18,10 @@ The below table is arbitrarily defined and used to define the structure of the p
 | A             | 0.20   | 0.060        |
 | BBB           | 0.10   | 0.080        |
 
+```python
+portfolio = {'AAA': {'weight': 0.40, 'default_rate': 0.025}, 'AA': {'weight': 0.30, 'default_rate': 0.04}, 
+             'A': {'weight': 0.20, 'default_rate': 0.06}, 'BBB': {'weight': 0.10, 'default_rate': 0.08}}
+```
 
 
 This class module produces a list of tuples that can be unpackaged and graphed like the below:
