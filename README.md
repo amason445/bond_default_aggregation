@@ -4,7 +4,7 @@ This repository contains a class module that aggregates the total default distri
 
 `P(X = n) = ∑ P(Ratingᵢ) × P(X = n | Ratingᵢ)`
 
-This conforms to the [Law of Total Probability](https://en.wikipedia.org/wiki/Law_of_total_probability) since the defaults are weighted by credit rating. So, this model assumes the following:
+This conforms to the [Law of Total Probability](https://en.wikipedia.org/wiki/Law_of_total_probability) since the portfolio is weighted by each respective credit rating. So, this model assumes the following:
 - Bond Defaults are independent
 - Default rates are derived from credit rating
 - Portfolio weights by rating accurate reflect the underlying investment portfolio
